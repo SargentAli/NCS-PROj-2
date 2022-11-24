@@ -1,8 +1,8 @@
 <?php
-	$Host = "localhost";
-	$Username = "root";
-	$Password = "";
-	$Db = "smss_db";
+	$Host = "glennserv.mysql.database.azure.com";
+	$Username = "glenn";
+	$Password = "P@ssw0rd";
+	$Db = "shoe-db";
 	
 	$Conn = mysqli_connect($Host,$Username,$Password,$Db);
 
